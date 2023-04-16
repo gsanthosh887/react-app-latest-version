@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-Run the app https://gsanthosh887.github.io/react-app-latest-version.in/
+Run the app https://gsanthosh887.github.io/react-app-latest-version/
+
+https://gsanthosh887.github.io/santhoshguntha.github.in/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
