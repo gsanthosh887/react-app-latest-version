@@ -5,7 +5,7 @@ const PageNotFound = () => {
     
  return (
     <>
-      Fage Not Found!
+      Page Not Found!
     </>
  );
 };

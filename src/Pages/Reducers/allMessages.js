@@ -1,15 +1,16 @@
 import { ActionTypes } from "../ActionTypes/ActionTypes"
 
 const initialState = {
-    count: 0,
+    allMessges: []
 }
 
-const todos = (state = initialState, action) => {
+const Messages = (state = initialState, action) => {
     switch (action.type) {
-      case ActionTypes.INCREMENT_COUNT:
+    
+      case ActionTypes.USER_MESSAGES:
         return {
           ...state,
-          count: action.payload + 1
+          allMessges: [...state.allMessges, action.payload]
         }
 
       default:
@@ -17,5 +18,5 @@ const todos = (state = initialState, action) => {
     }
   }
   
-  export default todos
+  export default Messages;
   
